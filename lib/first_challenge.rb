@@ -17,7 +17,7 @@ def first_challenge
 
   contacts.each do |contact, properties|
     if contact == "Freddy Mercury"
-      properties[:favorite_icecream_flavors].pop("strawberry")
+      contact[:favorite_icecream_flavors].pop("strawberry")
     end
   end
 
