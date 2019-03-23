@@ -15,6 +15,11 @@ def first_challenge
 
   #your code here
 
+  contacts.each do |contact, properties|
+    if contact == "Freddy Mercury"
+      properties[:favorite_icecream_flavors].pop("strawberry")
+    end
+  end
 
   #remember to return your newly altered contacts hash!
   contacts
